@@ -1,0 +1,14 @@
+{
+  "name": "local/markdown-reader-project",
+  "description": "Native PHP 8.5 MVC markdown reader project.",
+  "type": "project",
+  "require": {
+    "php": "^8.5",
+    "league/commonmark": "2.8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
