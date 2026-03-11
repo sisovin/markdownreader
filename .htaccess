@@ -1,3 +1,4 @@
+Options -MultiViews
 RewriteEngine On
 
 RewriteRule ^assets/(.*)$ public/assets/$1 [L]
@@ -7,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-RewriteRule ^ index.php [QSA,L]
+RewriteRule ^ public/index.php [QSA,L]
